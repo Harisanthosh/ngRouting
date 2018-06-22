@@ -23,7 +23,7 @@ const routes: Routes = [
     path: 'referee', component: RefreeComponent, canActivate:[UniversalGuardService]
   },
   {
-    path: 'sponsor', component: SponsorsComponent
+    path: 'sponsor', component: SponsorsComponent, canDeactivate:[UniversalGuardService]
   },
   {
     path: '**', redirectTo: 'sponsor'

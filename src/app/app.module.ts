@@ -9,6 +9,7 @@ import { RefreeComponent } from './refree/refree.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { UniversalGuardService } from './universal-guard.service';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UniversalGuardService } from './universal-guard.service';
     PlayersComponent,
     RefreeComponent,
     ScheduleComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
