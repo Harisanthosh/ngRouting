@@ -1,0 +1,6 @@
+<p>
+  players works!
+</p>
+
+<a *ngFor="let player of playerList" [routerLink]="['/players',player.playerName]" (click)="handleIt(player)">{{player.playerName}}</a>
+{{data}}
